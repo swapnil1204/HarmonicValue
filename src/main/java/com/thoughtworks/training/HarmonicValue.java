@@ -8,7 +8,9 @@ public class HarmonicValue {
     }
 
     public double get() {
-        return 1;
+        if (value == 1)
+            return 1;
+        return 1 + 0.5;
     }
 }
 
