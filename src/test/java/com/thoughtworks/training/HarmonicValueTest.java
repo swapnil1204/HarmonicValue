@@ -12,7 +12,7 @@ public class HarmonicValueTest {
     }
 
     @Test
-    public void givenOneAndTwo_WhenEvaluate_ThenShouldReturnOnePointFive() {
+    public void givenTwo_WhenEvaluate_ThenShouldReturnOnePointFive() {
         HarmonicValue harmonicValue = new HarmonicValue(2);
 
         Assertions.assertEquals(1.5, harmonicValue.get());
