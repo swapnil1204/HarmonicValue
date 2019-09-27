@@ -17,4 +17,11 @@ public class HarmonicValueTest {
 
         Assertions.assertEquals(1.5, harmonicValue.get());
     }
+
+    @Test
+    public void givenThree_WhenEvaluate_ThenShouldReturnOnePointEightThree() {
+        HarmonicValue harmonicValue = new HarmonicValue(3);
+
+        Assertions.assertEquals(1.8333333333333333, harmonicValue.get());
+    }
 }

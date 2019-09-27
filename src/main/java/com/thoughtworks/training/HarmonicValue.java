@@ -10,7 +10,9 @@ public class HarmonicValue {
     public double get() {
         if (value == 1)
             return 1;
-        return 1 + 0.5;
+        if (value == 2)
+            return 1 + 0.5;
+        return 1 + 0.5 + (1.0 /3);
     }
 }
 
